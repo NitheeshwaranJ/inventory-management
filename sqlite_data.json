@@ -1,0 +1,66 @@
+[
+{
+  "model": "catalog.category",
+  "pk": 1,
+  "fields": {
+    "name": "Computer Accessories",
+    "description": "Computer peripherals and accessories",
+    "created_at": "2026-11-01T08:13:35.019Z"
+  }
+},
+{
+  "model": "catalog.supplier",
+  "pk": 1,
+  "fields": {
+    "name": "Demo Supplier",
+    "email": "supplier@example.com",
+    "phone": "",
+    "address": "",
+    "created_at": "2026-11-01T08:13:35.025Z"
+  }
+},
+{
+  "model": "catalog.product",
+  "pk": 1,
+  "fields": {
+    "sku": "KEY-001",
+    "name": "Mechanical Keyboard",
+    "description": "",
+    "category": 1,
+    "supplier": 1,
+    "cost_price": "500.00",
+    "selling_price": "800.00",
+    "stock": 10,
+    "low_stock_threshold": 5,
+    "is_active": true,
+    "created_at": "2026-11-01T08:13:35.032Z",
+    "updated_at": "2026-11-01T08:13:35.032Z"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$U305ijputdVYgQ9X3uubvw$44y6WO6SO30MLaYWhrb8CrsojEjD2gXjgfR6lDQxFag=",
+    "last_login": "2026-11-01T08:22:45.364Z",
+    "is_superuser": true,
+    "username": "user",
+    "first_name": "",
+    "last_name": "",
+    "email": "helo123@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-11-01T08:12:45.607Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "2151c32b926da4930fb71087c7c1c1120b345bca",
+  "fields": {
+    "user": 1,
+    "created": "2026-11-01T10:08:01.456Z"
+  }
+}
+]
